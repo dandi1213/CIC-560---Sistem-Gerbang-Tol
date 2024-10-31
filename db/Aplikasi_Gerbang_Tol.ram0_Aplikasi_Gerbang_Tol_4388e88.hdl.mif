@@ -1,0 +1,16 @@
+-- begin_signature
+-- Aplikasi_Gerbang_Tol
+-- end_signature
+WIDTH=7;
+DEPTH=8;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	4 :	1101111;
+	3 :	1100110;
+	2 :	1011011;
+	1 :	1100110;
+	0 :	1011011;
+END;

@@ -1,0 +1,70 @@
+module Aplikasi_Gerbang_Tol (
+    input Gol1,
+    input Gol2,
+    input Gol3,
+    input Buka_Tutup,
+    output reg Masuk_Lampu_Merah,
+    output reg Masuk_Lampu_Hijau,
+    output reg Keluar_Lampu_Merah,
+    output reg Keluar_Lampu_Hijau,
+    output reg [127:0] LCD_Data, // Output LCD 128 x 64
+    output reg [6:0] LCD_Address // Alamat layar LCD
+);
+
+reg [7:0] font_K, font_e, font_n, font_d, font_a, font_r, fonta_space, font_B, font_s; // Karakter font untuk "Kendaraan Besar"
+
+// Definisi karakter font
+initial begin
+    // Contoh karakter font sederhana
+    font_K = 8'b1111_1000; // K
+    font_e = 8'b1111_1110; // e
+    font_n = 8'b1010_1010; // n
+    font_d = 8'b1001_1001; // d
+    font_a = 8'b1000_1111; // a
+    font_r = 8'b1110_0100; // r
+    font_space = 8'b0000_0000; // spasi
+    font_B = 8'b1000_0111; // B
+    font_s = 8'b1011_1100; // s
+end
+
+always @(*) begin
+    
+    Masuk_Lampu_Hijau = (Gol1 | Gol2 | Gol3) & Buka_Tutup;
+    Masuk_Lampu_Merah = (!Gol1 & !Gol2 & !Gol3) & !Buka_Tutup;
+    
+    Keluar_Lampu_Hijau = Buka_Tutup;
+    Keluar_Lampu_Merah = !Buka_Tutup;
+    
+    // Menentukan tampilan untuk layar LCD
+    if (Gol1 & Buka_Tutup) begin
+        LCD_Address = 0; // Mulai dari alamat 0
+
+        // Menampilkan karakter "Kendaraan Besar"
+        LCD_Data = font_K;
+        LCD_Address = LCD_Address + 1;
+        LCD_Data = font_e;
+        LCD_Address = LCD_Address + 1;
+        LCD_Data = font_n;
+        LCD_Address = LCD_Address + 1;
+        LCD_Data = font_d;
+        LCD_Address = LCD_Address + 1;
+        LCD_Data = font_a;
+        LCD_Address = LCD_Address + 1;
+        LCD_Data = font_r;
+        LCD_Address = LCD_Address + 1;
+        LCD_Data = fonta_space;
+        LCD_Address = LCD_Address + 1;
+        LCD_Data = font_B;
+        LCD_Address = LCD_Address + 1;
+        LCD_Data = font_e;
+        LCD_Address = LCD_Address + 1;
+        LCD_Data = font_s;
+    end
+    else begin
+        // Jika kondisi lain, layar LCD kosong
+        LCD_Address = 0;
+        LCD_Data = 8'b0000_0000;
+    end
+end
+
+endmodule

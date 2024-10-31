@@ -1,0 +1,230 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x53110e5e: mfc90 + 0x30e5e
+	0x00da62ac: GCL_AFC + 0x62ac (?OnWndMsg@AFC_NESTED_FRAME@@UAEHIIJPAJ@Z + 0x3c)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0103636b: GCL_CUI + 0x636b (?relay_mouse_message_to_view@CUI_TOOLTIP@@IAIXHVCPoint@@@Z + 0x4b)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0fb965ce: prj_ppl + 0x265ce (prj_ppl_dll_get_template_classes + 0xfdae)
+	0x53111394: mfc90 + 0x31394
+	0x00da62ac: GCL_AFC + 0x62ac (?OnWndMsg@AFC_NESTED_FRAME@@UAEHIIJPAJ@Z + 0x3c)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0103636b: GCL_CUI + 0x636b (?relay_mouse_message_to_view@CUI_TOOLTIP@@IAIXHVCPoint@@@Z + 0x4b)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0fb965ce: prj_ppl + 0x265ce (prj_ppl_dll_get_template_classes + 0xfdae)
+	0x53111394: mfc90 + 0x31394
+	0x00da62ac: GCL_AFC + 0x62ac (?OnWndMsg@AFC_NESTED_FRAME@@UAEHIIJPAJ@Z + 0x3c)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0103636b: GCL_CUI + 0x636b (?relay_mouse_message_to_view@CUI_TOOLTIP@@IAIXHVCPoint@@@Z + 0x4b)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0fb965ce: prj_ppl + 0x265ce (prj_ppl_dll_get_template_classes + 0xfdae)
+	0x53111394: mfc90 + 0x31394
+	0x00da62ac: GCL_AFC + 0x62ac (?OnWndMsg@AFC_NESTED_FRAME@@UAEHIIJPAJ@Z + 0x3c)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0103636b: GCL_CUI + 0x636b (?relay_mouse_message_to_view@CUI_TOOLTIP@@IAIXHVCPoint@@@Z + 0x4b)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0fb965ce: prj_ppl + 0x265ce (prj_ppl_dll_get_template_classes + 0xfdae)
+	0x53111394: mfc90 + 0x31394
+	0x00da62ac: GCL_AFC + 0x62ac (?OnWndMsg@AFC_NESTED_FRAME@@UAEHIIJPAJ@Z + 0x3c)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0103636b: GCL_CUI + 0x636b (?relay_mouse_message_to_view@CUI_TOOLTIP@@IAIXHVCPoint@@@Z + 0x4b)
+	</callstack>
+	<error>Current editor: STED, RPW</error>
+	<date>Thu May 30 08:08:55 2024</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>Stack Overflow
+Current editor: STED, RPW
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x53110e5e: mfc90 + 0x30e5e
+	0x00da62ac: GCL_AFC + 0x62ac (?OnWndMsg@AFC_NESTED_FRAME@@UAEHIIJPAJ@Z + 0x3c)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0102636b: GCL_CUI + 0x636b (?relay_mouse_message_to_view@CUI_TOOLTIP@@IAIXHVCPoint@@@Z + 0x4b)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0aa665ce: prj_ppl + 0x265ce (prj_ppl_dll_get_template_classes + 0xfdae)
+	0x53111394: mfc90 + 0x31394
+	0x00da62ac: GCL_AFC + 0x62ac (?OnWndMsg@AFC_NESTED_FRAME@@UAEHIIJPAJ@Z + 0x3c)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0102636b: GCL_CUI + 0x636b (?relay_mouse_message_to_view@CUI_TOOLTIP@@IAIXHVCPoint@@@Z + 0x4b)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0aa665ce: prj_ppl + 0x265ce (prj_ppl_dll_get_template_classes + 0xfdae)
+	0x53111394: mfc90 + 0x31394
+	0x00da62ac: GCL_AFC + 0x62ac (?OnWndMsg@AFC_NESTED_FRAME@@UAEHIIJPAJ@Z + 0x3c)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0102636b: GCL_CUI + 0x636b (?relay_mouse_message_to_view@CUI_TOOLTIP@@IAIXHVCPoint@@@Z + 0x4b)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0aa665ce: prj_ppl + 0x265ce (prj_ppl_dll_get_template_classes + 0xfdae)
+	0x53111394: mfc90 + 0x31394
+	0x00da62ac: GCL_AFC + 0x62ac (?OnWndMsg@AFC_NESTED_FRAME@@UAEHIIJPAJ@Z + 0x3c)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0102636b: GCL_CUI + 0x636b (?relay_mouse_message_to_view@CUI_TOOLTIP@@IAIXHVCPoint@@@Z + 0x4b)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0aa665ce: prj_ppl + 0x265ce (prj_ppl_dll_get_template_classes + 0xfdae)
+	0x53111394: mfc90 + 0x31394
+	0x00da62ac: GCL_AFC + 0x62ac (?OnWndMsg@AFC_NESTED_FRAME@@UAEHIIJPAJ@Z + 0x3c)
+	0x53110e19: mfc90 + 0x30e19
+	0x5310fa0b: mfc90 + 0x2fa0b
+	0x5310fc97: mfc90 + 0x2fc97
+	0x5310da38: mfc90 + 0x2da38
+	0x77423452: USER32 + 0x33452 (Ordinal2713 + 0x6b2)
+	0x774142a5: USER32 + 0x242a5 (CallWindowProcW + 0x715)
+	0x774136c1: USER32 + 0x236c1 (MsgWaitForMultipleObjectsEx + 0x8d1)
+	0x7742a6c7: USER32 + 0x3a6c7 (SetWindowsHookExAW + 0x197)
+	0x7748899c: USER32 + 0x9899c (SendMessageA + 0x3c)
+	0x0102636b: GCL_CUI + 0x636b (?relay_mouse_message_to_view@CUI_TOOLTIP@@IAIXHVCPoint@@@Z + 0x4b)
+	</callstack>
+	<error>Current editor: STED</error>
+	<date>Thu May 30 08:17:08 2024</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>Stack Overflow
+Current editor: STED
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+

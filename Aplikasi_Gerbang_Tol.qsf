@@ -1,0 +1,109 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+# Date created = 08:23:12  May 28, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Aplikasi_Gerbang_Tol_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY Cyclone
+set_global_assignment -name DEVICE EP1C12Q240C8
+set_global_assignment -name TOP_LEVEL_ENTITY Aplikasi_Gerbang_Tol
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.0 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "08:23:12  MAY 28, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION "9.0 SP2"
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name DEVICE_FILTER_PACKAGE PQFP
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 240
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 8
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name CYCLONE_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CYCLONE_CONFIGURATION_DEVICE EPC2
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVCMOS"
+set_global_assignment -name SMART_RECOMPILE ON
+set_global_assignment -name VHDL_FILE Aplikasi_Gerbang_Tol.vhd
+set_global_assignment -name MISC_FILE "C:/Users/Fahlevi Nicko/Documents/Quartus/sistem tertanam senin/Aplikasi_Gerbang_Tol/Aplikasi_Gerbang_Tol.dpf"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_location_assignment PIN_1 -to Gol1
+set_location_assignment PIN_2 -to Gol2
+set_location_assignment PIN_3 -to Gol3
+set_location_assignment PIN_4 -to Buka_Tutup_1
+set_location_assignment PIN_5 -to Buka_Tutup_2
+set_global_assignment -name MISC_FILE "C:/Users/poiuy/Downloads/Aplikasi_Gerbang_Tol/Aplikasi_Gerbang_Tol.dpf"
+set_location_assignment PIN_11 -to Seven_Segment[0]
+set_location_assignment PIN_12 -to Seven_Segment[1]
+set_location_assignment PIN_13 -to Seven_Segment[2]
+set_location_assignment PIN_14 -to Seven_Segment[3]
+set_location_assignment PIN_15 -to Seven_Segment[4]
+set_location_assignment PIN_16 -to Seven_Segment[5]
+set_location_assignment PIN_17 -to Seven_Segment[6]
+set_location_assignment PIN_28 -to Clock
+set_location_assignment PIN_200 -to Buzzer
+set_location_assignment PIN_163 -to Masuk_Lampu_Merah[0]
+set_location_assignment PIN_162 -to Masuk_Lampu_Merah[1]
+set_location_assignment PIN_161 -to Masuk_Lampu_Merah[2]
+set_location_assignment PIN_160 -to Masuk_Lampu_Merah[3]
+set_location_assignment PIN_159 -to Masuk_Lampu_Merah[4]
+set_location_assignment PIN_158 -to Masuk_Lampu_Merah[5]
+set_location_assignment PIN_156 -to Masuk_Lampu_Merah[6]
+set_location_assignment PIN_144 -to Masuk_Lampu_Merah[7]
+set_location_assignment PIN_116 -to Keluar_Lampu_Merah[0]
+set_location_assignment PIN_115 -to Keluar_Lampu_Merah[1]
+set_location_assignment PIN_114 -to Keluar_Lampu_Merah[2]
+set_location_assignment PIN_113 -to Keluar_Lampu_Merah[3]
+set_location_assignment PIN_108 -to Keluar_Lampu_Merah[4]
+set_location_assignment PIN_107 -to Keluar_Lampu_Merah[5]
+set_location_assignment PIN_106 -to Keluar_Lampu_Merah[6]
+set_location_assignment PIN_105 -to Keluar_Lampu_Merah[7]
+set_location_assignment PIN_201 -to Masuk_Lampu_Hijau[0]
+set_location_assignment PIN_203 -to Masuk_Lampu_Hijau[2]
+set_location_assignment PIN_202 -to Masuk_Lampu_Hijau[1]
+set_location_assignment PIN_206 -to Masuk_Lampu_Hijau[3]
+set_location_assignment PIN_207 -to Masuk_Lampu_Hijau[4]
+set_location_assignment PIN_208 -to Masuk_Lampu_Hijau[5]
+set_location_assignment PIN_213 -to Masuk_Lampu_Hijau[6]
+set_location_assignment PIN_214 -to Masuk_Lampu_Hijau[7]
+set_location_assignment PIN_88 -to Keluar_Lampu_Hijau[0]
+set_location_assignment PIN_87 -to Keluar_Lampu_Hijau[1]
+set_location_assignment PIN_86 -to Keluar_Lampu_Hijau[2]
+set_location_assignment PIN_85 -to Keluar_Lampu_Hijau[3]
+set_location_assignment PIN_84 -to Keluar_Lampu_Hijau[4]
+set_location_assignment PIN_83 -to Keluar_Lampu_Hijau[5]
+set_location_assignment PIN_82 -to Keluar_Lampu_Hijau[6]
+set_location_assignment PIN_79 -to Keluar_Lampu_Hijau[7]
